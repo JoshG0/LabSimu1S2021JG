@@ -1,9 +1,7 @@
 #!/bin/bash
-#Este es un script que muestra informacíon del Clima en Guatemala
-#Autor: Josué Gómez
-
-#script:
-touch "InformacióndelClima"
-echo "$(curl wttr.in/Guatemala)" > "InformacióndelClima"
-head -7 InformacióndelClima
-rm InformacióndelClima
+#Datos del clima de Guatemala para el día de hoy
+echo "**| ESTADO DEL TIEMPO PARA HOY |**"
+touch "InfoClima"
+echo "$(curl wttr.in/Guatemala)" > "InfoClima"
+head -7 InfoClima
+rm InfoClima
