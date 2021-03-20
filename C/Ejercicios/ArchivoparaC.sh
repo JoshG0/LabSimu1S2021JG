@@ -45,7 +45,6 @@ echo "*/ " >> $fnombre
 
 echo //Librerias >> $fnombre
 echo "#include <stdio.h>" >> $fnombre
-echo //numerar los pasos del pseudocódigo >>$fnombre
 echo "       **| Su archivo ha sido creado exitosamente |**       "
 
 
