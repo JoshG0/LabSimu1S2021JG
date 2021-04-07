@@ -1,11 +1,11 @@
 /*
-Autor:  root
+Autor:  Josué Gómez
 Compilador:  gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 Compilado:  gcc Calculadora_1605.c -o Calculadora_1605
-Fecha:  Wed Apr 7 05:32:52 UTC 2021
+Fecha:  Wed Apr 6 21:32:52 UTC 2021
 Librerias: stdio (u otras)
 Resumen:  Calculadora que al iniciar interactua con el usuario para que este determine si se realizará una suma, resta, multiplicación o división entre dos números. La forma de indicar la operación será a través de números. Tendrá la ocpción de finalizarse cuando se requiera, de lo contrario estará ejecutandose e interactuando con el usuario.
-Entada:  Numeros enteros
+Entada:  Números enteros
 Salida:  Sumas, restas, multiplicaciones y divisiones.
 */ 
 //Librerias
