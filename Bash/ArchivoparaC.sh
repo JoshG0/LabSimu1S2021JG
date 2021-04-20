@@ -2,19 +2,20 @@
 # Este será un Script que creará automáticament un archivo para programar en c.
 
 #Autor: Josué Gómez
-#Tipo: Este es un Script de Bash
+#Tipo: Script de Bash
 #La manera de ejecurlo es: ./ArchivoparaC.sh
 #Resumen: Este es un generador automático  de comentarios para scripts de C
 
 #Bienvenida para el usuario
-echo "          * *| Generador de Archivos C |* *          " 
+echo "          * *| Generador de Archivos C |* *         " 
 
 #obtener y validar el nombre del archivo:
 
 read -p "Ingrese el nombre para su archvo: " nombre  #variable nombre que ingrese el usuario. 
 fnombre=$nombre".c" #aqui llame a la variable nombre
+
 if [ -z $nombre ]; then #usamos if, -z verifica la variable nombre, then=entonces
-   echo "No puede dejar este espacio en blanco. Ahora deberá empezar de nuevo :D"
+   echo "No puede dejar este espacio en blanco. Ahora deberá empezar de nuevo"
    exit 2 #se coloca 2 por convenio y se sale del del ejecutable
 fi #para finalizar if, sino esto sigue
 
@@ -43,9 +44,8 @@ echo "Entada: " $entrada >> $fnombre
 echo "Salida: " $salida >> $fnombre
 echo "*/" >> $fnombre
 
-echo //Librerias >> $fnombre
+echo  //Librerias >> $fnombre
 echo "#include <stdio.h>" >> $fnombre
-echo //numerar los pasos del pseudocódigo >>$fnombre
 echo "       **| Su archivo ha sido creado exitosamente |**       "
 
 
